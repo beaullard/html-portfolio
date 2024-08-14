@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <style>
+        /* Base Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f9; /* Light blueish background */
+            color: #333; /* Dark grey text */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1e90ff; /* Bright blue */
+            margin-top: 20px;
+        }
+
+        h2, h3 {
+            color: #ff7f50; /* Coral orange */
+        }
+
+        p, ul {
+            color: #555;
+            font-size: 18px;
+            margin: 20px auto;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #ffefd5; /* Light peach background */
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ff7f50; /* Coral orange border */
+        }
+
+        /* Image Styling */
+        img {
+            width: 50%; /* Adjusted size for better aesthetics */
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Link Styling */
+        a {
+            color: #1e90ff; /* Bright blue links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #ff7f50; /* Coral orange on hover */
+            text-decoration: underline;
+        }
+
+        /* Draggable Links */
+        a[draggable="true"] {
+            cursor: grab;
+        }
+
+        a[draggable="true"]:active {
+            cursor: grabbing;
+        }
+
+        /* Container for centering content */
+        .container {
+            padding: 20px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi guys, it's my birthday!</h1>
+        <h2>On the 19th of February</h2>
+        
+        <!-- Cake Image -->
+        <img src="https://raw.githubusercontent.com/appbrewery/webdev/main/birthday-cake3.4.jpeg" alt="Purple Birthday Cake with candles" />
+
+        <!-- Items to Bring -->
+        <h3>What to Bring:</h3>
+        <ul>
+            <li>A gift (no pressure, just something small)</li>
+            <li>Your favorite drink</li>
+            <li>A positive attitude!</li>
+            <li>Balloons</li>
+            <li>Snacks to share with everyone</li>
+        </ul>
+
+        <!-- Google Maps Link -->
+        <h3>Where to Go:</h3>
+        <p>
+            The party will be held at my place! Here's the location:
+            <a href="https://goo.gl/maps/YourGoogleMapLinkHere" target="_blank" draggable="true">Open in Google Maps</a>
+        </p>
+    </div>
+</body>
+</html>
